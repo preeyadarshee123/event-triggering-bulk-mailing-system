@@ -16,8 +16,8 @@ def work():
             template_file_content = template_file.read()
             return Template(template_file_content)
 
-    MY_ADDRESS = 'preeyadarshee123@gmail.com'
-    PASSWORD = 'babanamkevalam'
+    MY_ADDRESS = 'myemail@gmail.com'
+    PASSWORD = 'password'
     
     message_template = read_template('message.txt')
     
